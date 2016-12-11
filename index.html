@@ -3,8 +3,54 @@
     <head>
         <meta charset="utf-8">
         <title>Money Watcher</title>
+        <style>
+          body {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+          }
+        </style>
+        <link rel="stylesheet" href="./blocks/money-view.css">
     </head>
     <body>
         <h1>Money Watcher</h1>
+
+        <div class="money-view">
+          <div class="money-view__header">
+  					<h3 class="money-view__title">Money View</h3>
+  				</div>
+          <table class="money-view__list">
+            <tr>
+              <th class="money-view__cell">ID</th>
+              <th class="money-view__cell">Date</th>
+              <th class="money-view__cell">Type</th>
+              <th class="money-view__cell">Amount</th>
+              <th class="money-view__cell"></th>
+            </tr>
+            <tr>
+              <td class="money-view__cell">1234</td>
+              <td class="money-view__cell">09/20/2015</td>
+              <td class="money-view__cell">Permission</td>
+              <td class="money-view__cell">HYD</td>
+              <td class="money-view__cell" data-action="deleteItem">Delete row</td>
+            </tr>
+            <tr>
+              <td class="money-view__cell">1234</td>
+              <td class="money-view__cell">09/20/2015</td>
+              <td class="money-view__cell">Permission</td>
+              <td class="money-view__cell">HYD</td>
+              <td class="money-view__cell" data-action="deleteItem">Delete row</td>
+            </tr>
+            <tr>
+              <td class="money-view__cell">1234</td>
+              <td class="money-view__cell">09/20/2015</td>
+              <td class="money-view__cell">Permission</td>
+              <td class="money-view__cell">HYD</td>
+              <td class="money-view__cell" data-action="deleteItem">Delete row</td>
+            </tr>
+        </table>
+      </div>
+      <script src="./blocks/Money-view.js"></script>
+      <script src="./main.js"></script>
     </body>
 </html>
