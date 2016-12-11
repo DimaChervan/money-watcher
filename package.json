@@ -1,0 +1,19 @@
+{
+  "name": "money-watcher",
+  "version": "1.0.0",
+  "description": "money-watcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimaChervan/money-watcher.git"
+  },
+  "author": "Dmitriy Chervan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimaChervan/money-watcher/issues"
+  },
+  "homepage": "https://github.com/DimaChervan/money-watcher#readme"
+}
